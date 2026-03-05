@@ -42,7 +42,7 @@ This project investigates the relationship between neighborhood walkability and 
 
 ```
 ├── README.md
-├── analysis.ipynb          # Full notebook with code, visualizations, and results
+├── Walkability.ipynb          
 ├── Health_Data.csv
 ├── Walkability_Data.csv
 ├── Census_Data.json
