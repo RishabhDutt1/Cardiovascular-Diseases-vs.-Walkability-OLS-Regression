@@ -23,6 +23,9 @@ This project investigates the relationship between neighborhood walkability and 
 | `Walkability_Data.csv` | EPA Smart Location Database | Census block group walkability index (NatWalkInd), aggregated to county level using population weights |
 | `Census_Data.json` | U.S. Census Bureau ACS | Median household income (B19013_001E) and age distribution by sex (B01001 table) for computing % population 65+ |
 
+Walkability_Data.csv is too large for GitHub. Download the Smart Location Database from the EPA website and place it in the root directory before running the notebook
+(https://www.epa.gov/smartgrowth/smart-location-mapping#702702702SLD). 
+
 ## Methodology
 
 1. **Data Collection** — Merged three datasets on county FIPS codes. Walkability scores were aggregated from block group to county level using population-weighted averages.
@@ -44,7 +47,6 @@ This project investigates the relationship between neighborhood walkability and 
 ├── README.md
 ├── Walkability.ipynb          
 ├── Health_Data.csv
-├── Walkability_Data.csv
 ├── Census_Data.json
 ```
 
